@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>remove demo</title>
+  <style>
+  p {
+    background: yellow;
+    margin: 6px 0;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</head>
+<body>
+ 
+<p>Hello</p>
+how are
+<p>you?</p>
+<button>Call remove() </button>
+ 
+<script>
+$( "button" ).click(function() {
+  $( "p" ).remove();
+});
+</script>
+ 
+</body>
+</html>
